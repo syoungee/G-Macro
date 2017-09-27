@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>516</width>
+    <height>382</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWindow">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>311</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnKeyBoard">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>70</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>키보드</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnMouse">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>120</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>마우스</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnTime">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>180</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>시간</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnErase">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>240</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>지우기</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="btnAppend">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>108</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>추가</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="btnInsert">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>310</y>
+      <width>108</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>삽입</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="btnRepeat">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>310</y>
+      <width>96</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>반복</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>516</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuS_Macro">
+    <property name="title">
+     <string>파일</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuver_1_0">
+    <property name="title">
+     <string>시작</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>설정</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>정보</string>
+    </property>
+   </widget>
+   <addaction name="menuS_Macro"/>
+   <addaction name="menuver_1_0"/>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
